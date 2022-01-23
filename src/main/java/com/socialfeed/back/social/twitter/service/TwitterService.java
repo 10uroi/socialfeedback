@@ -1,10 +1,10 @@
-package com.socialfeed.back.socialapi;
+package com.socialfeed.back.social.twitter.service;
 
 import io.github.redouane59.twitter.TwitterClient;
 import io.github.redouane59.twitter.dto.user.User;
 import io.github.redouane59.twitter.signature.TwitterCredentials;
 
-public class TwitterAPI {
+public class TwitterService {
 
     public static void main(String[] args) {
         TwitterClient twitterClient = new TwitterClient(TwitterCredentials.builder()

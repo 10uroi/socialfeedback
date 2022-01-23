@@ -65,6 +65,22 @@
 			<artifactId>twittered</artifactId>
 			<version>2.14</version>
 		</dependency>
+
+		<!-- Rest İstek Gönderme işlemi için-->
+		<dependency>
+			<groupId>com.mashape.unirest</groupId>
+			<artifactId>unirest-java</artifactId>
+			<version>1.4.9</version>
+		</dependency>
+		<!-- ### Rest İstek Gönderme işlemi için-->
+
+<!--		<dependency>-->
+<!--			<groupId>com.fasterxml.jackson.core</groupId>-->
+<!--			<artifactId>jackson-databind</artifactId>-->
+<!--			<version>2.13.0</version>-->
+<!--		</dependency>-->
+
+
 	</dependencies>
 
 	<build>
